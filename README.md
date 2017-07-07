@@ -10,4 +10,5 @@ Deploy the mysql container.
 Build and Run this container linking mysql container
 
 #docker build -t <image_name> .
+
 #docker run -p 7777:8080 --link <mysql_container_name>:db --name <container_name> <image_name>
