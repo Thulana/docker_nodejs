@@ -13,3 +13,6 @@ Run instruction
 #docker build -t <image_name> .
 
 #docker run -p 7777:8080 --link <mysql_container_name>:db --name <container_name> <image_name>
+
+Once both containers are deployed, http://localhost:7777 will show the database table names.
+Cheers !!!!
