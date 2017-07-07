@@ -8,6 +8,7 @@ Run instruction
 - Create a another dockerfile for a mysql database.
 - Deploy the mysql container.
 - Build and Run this container linking mysql container
+- change the database names, passwords and users according to ur need in index.js
 
 #docker build -t <image_name> .
 
