@@ -5,9 +5,9 @@ A simple dockerfile template for nodejs. Includes simple example to connect with
 
 Run instruction
 
-Create a another dockerfile for a mysql database.
-Deploy the mysql container.
-Build and Run this container linking mysql container
+- Create a another dockerfile for a mysql database.
+- Deploy the mysql container.
+- Build and Run this container linking mysql container
 
 #docker build -t <image_name> .
 
